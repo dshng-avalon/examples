@@ -102,7 +102,7 @@ createNode objectSet -n "modelDefault";
 	setAttr ".ihi" 0;
 	setAttr ".subset" -type "string" "modelDefault";
 	setAttr ".id" -type "string" "pyblish.avalon.instance";
-	setAttr ".family" -type "string" "mindbender.model";
+	setAttr ".family" -type "string" "studio.model";
 	setAttr ".asset" -type "string" "Bruce";
 createNode script -n "sceneConfigurationScriptNode";
 	setAttr ".b" -type "string" "playbackOptions -min 1 -max 120 -ast 1 -aet 200 ";

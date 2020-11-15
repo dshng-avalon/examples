@@ -237,7 +237,7 @@ createNode objectSet -n "rigDefault";
 	setAttr -s 2 ".dnsm";
 	setAttr ".subset" -type "string" "rigDefault";
 	setAttr ".id" -type "string" "pyblish.avalon.instance";
-	setAttr ".family" -type "string" "mindbender.rig";
+	setAttr ".family" -type "string" "studio.rig";
 	setAttr ".asset" -type "string" "Bruce";
 createNode script -n "sceneConfigurationScriptNode";
 	rename -uid "E5456D71-478B-7079-DE22-559C2A47897E";

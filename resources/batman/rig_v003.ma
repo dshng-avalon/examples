@@ -205,7 +205,7 @@ createNode objectSet -n "rigDefault";
 	setAttr -s 2 ".dnsm";
 	setAttr ".subset" -type "string" "rigDefault";
 	setAttr ".id" -type "string" "pyblish.avalon.instance";
-	setAttr ".family" -type "string" "mindbender.rig";
+	setAttr ".family" -type "string" "studio.rig";
 	setAttr ".asset" -type "string" "Bruce";
 createNode script -n "sceneConfigurationScriptNode";
 	setAttr ".b" -type "string" "playbackOptions -min 1 -max 120 -ast 1 -aet 200 ";

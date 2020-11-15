@@ -122,7 +122,7 @@ createNode objectSet -n "modelDefault";
 	setAttr ".ihi" 0;
 	setAttr ".subset" -type "string" "modelDefault";
 	setAttr ".id" -type "string" "pyblish.avalon.instance";
-	setAttr ".family" -type "string" "mindbender.model";
+	setAttr ".family" -type "string" "studio.model";
 	setAttr ".asset" -type "string" "Bruce";
 createNode script -n "sceneConfigurationScriptNode";
 	rename -uid "6C4D4A60-4544-E696-B72D-FC868AA41560";

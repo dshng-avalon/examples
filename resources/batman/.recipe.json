@@ -5,7 +5,7 @@
             "app": "mayapy2016",
             "asset": "Bruce",
             "silo": "assets",
-            "config": "polly",
+            "config": "studiocfg",
             "task": "modeling"
         },
         "resources": [
@@ -20,7 +20,7 @@
             "app": "mayapy2016",
             "asset": "Bruce",
             "silo": "assets",
-            "config": "polly",
+            "config": "studiocfg",
             "task": "rigging"
         },
         "resources": [
@@ -34,7 +34,7 @@
             "app": "mayapy2016",
             "asset": "shot1",
             "silo": "film",
-            "config": "polly",
+            "config": "studiocfg",
             "task": "animation"
         },
         "resources": [

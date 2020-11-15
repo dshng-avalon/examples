@@ -190,7 +190,7 @@ createNode objectSet -n "Bruce_01";
 	setAttr ".subset" -type "string" "Bruce_01";
 	setAttr ".dependencies" -type "string" "594bddf55f8c1b7e2ceb3da0";
 	setAttr ".asset" -type "string" "shot1";
-	setAttr ".family" -type "string" "mindbender.animation";
+	setAttr ".family" -type "string" "studio.animation";
 	setAttr -cb on ".startFrame" 1000;
 	setAttr -cb on ".endFrame" 1143;
 	setAttr ".id" -type "string" "pyblish.avalon.instance";

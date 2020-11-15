@@ -53,51 +53,44 @@ Here is what a recipe might look like for a project called "batman".
 
 ```json
 [
-    {
-        "message": "Modeling..",
-        "session": {
-            "app": "mayapy2016",
-            "asset": "Bruce",
-            "silo": "assets",
-            "config": "polly",
-            "task": "modeling"
-        },
-        "resources": [
-            "model_v001.ma",
-            "model_v002.ma",
-            "model_v003.ma"
-        ]
+  {
+    "message": "Modeling..",
+    "session": {
+      "app": "mayapy2016",
+      "asset": "Bruce",
+      "silo": "assets",
+      "config": "studiocfg",
+      "task": "modeling"
     },
-    {
-        "message": "Rigging..",
-        "session": {
-            "app": "mayapy2016",
-            "asset": "Bruce",
-            "silo": "assets",
-            "config": "polly",
-            "task": "rigging"
-        },
-        "resources": [
-            "rig_v003.ma",
-            "rig_v006.ma"
-        ]
+    "resources": ["model_v001.ma", "model_v002.ma", "model_v003.ma"]
+  },
+  {
+    "message": "Rigging..",
+    "session": {
+      "app": "mayapy2016",
+      "asset": "Bruce",
+      "silo": "assets",
+      "config": "studiocfg",
+      "task": "rigging"
     },
-    {
-        "message": "Animating..",
-        "session": {
-            "app": "mayapy2016",
-            "asset": "shot1",
-            "silo": "film",
-            "config": "polly",
-            "task": "animation"
-        },
-        "resources": [
-            "anim_v002.ma",
-            "anim_v006.ma",
-            "anim_v012.ma",
-            "anim_v034.ma"
-        ]
-    }
+    "resources": ["rig_v003.ma", "rig_v006.ma"]
+  },
+  {
+    "message": "Animating..",
+    "session": {
+      "app": "mayapy2016",
+      "asset": "shot1",
+      "silo": "film",
+      "config": "studiocfg",
+      "task": "animation"
+    },
+    "resources": [
+      "anim_v002.ma",
+      "anim_v006.ma",
+      "anim_v012.ma",
+      "anim_v034.ma"
+    ]
+  }
 ]
 ```
 
@@ -119,5 +112,4 @@ $ python build.py batman
 #  processing 'anim_v034.ma'..
 ```
 
-In order to *create* a procedural project, you'll first create your project as per usual, and then "lift" the contained files into a resource directory, such as `resources/my_project/my_file.ma".
-
+In order to _create_ a procedural project, you'll first create your project as per usual, and then "lift" the contained files into a resource directory, such as `resources/my_project/my_file.ma".
